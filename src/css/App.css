@@ -1,11 +1,6 @@
 .App {
   text-align: center;
-  background-color: white;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: #0054E8;
 }
 
 .App-header {
@@ -15,5 +10,5 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: white;
 }

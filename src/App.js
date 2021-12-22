@@ -3,7 +3,6 @@ import Home from './home';
 import Experience from './experience';
 import Project from './projects';
 import Contact from './contact'
-import React, { Component } from 'react';
 import { Routes ,Route } from 'react-router-dom';
 
 function App() {

@@ -12,6 +12,7 @@
   a.social {
     margin: 0 1rem;
     padding: 2vh;
+    width: 10vh;
   }
 
   a.social:hover {

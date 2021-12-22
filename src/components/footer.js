@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
     faLinkedin,
-    faFacebook,
     faTwitter,
     faInstagram,
     faGithub,
@@ -12,25 +11,29 @@ import {
 
 function Footer() {
     return (
-        <div class="Footer">
+        <div className="Footer">
             <a href="https://www.linkedin.com/in/samuel-kuhbander/"
+                rel="noopener noreferrer"
                 className="linkedin social" target="_blank">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
             <a href="https://www.twitter.com/kuhbandersam"
+                rel="noopener noreferrer"
                 className="twitter social" target="_blank">
                 <FontAwesomeIcon icon={faTwitter} size="2x" />
             </a>
             <a href="https://www.instagram.com/samkuhbander"
+                rel="noopener noreferrer"
                 className="instagram social" target="_blank">
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
             <a href="https://github.com/samkuhbander"
+                rel="noopener noreferrer"
                 className="github social" target="_blank">
                 <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
         </div>
-        
+
     );
 }
 

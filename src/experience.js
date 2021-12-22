@@ -1,11 +1,11 @@
 import React from "react";
 
-function Project() {
+function Experience() {
     return (
         <div>
-            Projects
+            Experience
         </div>
     );
 }
 
-export default Project;
+export default Experience;

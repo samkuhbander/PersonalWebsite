@@ -1,11 +1,12 @@
 import React from "react";
 
-function Project() {
+function Contact() {
     return (
         <div>
-            Projects
+            Contact
         </div>
+        
     );
 }
 
-export default Project;
+export default Contact;

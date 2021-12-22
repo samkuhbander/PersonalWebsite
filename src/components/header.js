@@ -13,8 +13,14 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 
 import Headshot from "../static/LockheedHeadshot.jpg";
+import { Link } from 'react-router-dom';
 
-const pages = ['Projects', 'Experience', 'About Me'];
+const pages = [
+  <Link to="/" style={{ textDecoration: 'none' }}>Home </Link>,
+  <Link to="/projects" style={{ textDecoration: 'none' }}> Projects </Link>, 
+  <Link to="/experience" style={{ textDecoration: 'none' }}> Experience </Link>, 
+  <Link to="/contact" style={{ textDecoration: 'none' }}> Contact</Link>
+];
 const settings = ['Contact'];
 
 const ResponsiveAppBar = () => {
@@ -37,22 +43,20 @@ const ResponsiveAppBar = () => {
   };
 
   return (
-    <AppBar position="static" style={{background: "#002159"}}>
+    <AppBar position="static" style={{ background: "#002159" }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
-            variant="h6"
+            variant="h4"
             noWrap
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            Sam Kuhbander
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
-              aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
@@ -80,59 +84,35 @@ const ResponsiveAppBar = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center" sx={{ fontSize: 25, pl: 2 }}>{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
           <Typography
-            variant="h6"
+            variant="h4"
             noWrap
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
           >
             Sam Kuhbander
+            
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'white', display: 'block', fontSize: 25 , px: 4 }}
               >
                 {page}
               </Button>
             ))}
           </Box>
-
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Sam Kuhbander" src={Headshot} />
+              <IconButton onClick={handleOpenUserMenu} sx={{ p: 2}}>
+                <Avatar alt="Sam Kuhbander" src={Headshot} sx={{ width: 60, height: 60}}/>
               </IconButton>
-            </Tooltip>
-            <Menu
-              sx={{ mt: '45px' }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
           </Box>
         </Toolbar>
       </Container>

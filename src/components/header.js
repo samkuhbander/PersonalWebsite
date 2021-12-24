@@ -75,11 +75,34 @@ const ResponsiveAppBar = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center" sx={{ fontSize: 25, pl: 2 }}>{page}</Typography>
+                <Link to="/" style={{ textDecoration: 'none'}}>
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center" sx={{ fontSize: 25, px: 2 }}>
+                    Home
+                  </Typography>
                 </MenuItem>
-              ))}
+                </Link>
+                <Link to="/projects" style={{ textDecoration: 'none'}}>
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center" sx={{ fontSize: 25, px: 2 }}>
+                    Projects
+                  </Typography>
+                </MenuItem>
+                </Link>
+                <Link to="/experience" style={{ textDecoration: 'none'}}>
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center" sx={{ fontSize: 25, px: 2 }}>
+                    Experience
+                  </Typography>
+                </MenuItem>
+                </Link>
+                <Link to="/contact" style={{ textDecoration: 'none'}}>
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center" sx={{ fontSize: 25, px: 2 }}>
+                    Contact
+                  </Typography>
+                </MenuItem>
+                </Link>
             </Menu>
           </Box>
           <Typography
@@ -92,15 +115,39 @@ const ResponsiveAppBar = () => {
             
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {/* Buttons  */}
+            <Link to="/" style={{ textDecoration: 'none'}}>
               <Button
-                key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block', fontSize: 25 , px: 4}}
               >
-                {page}
+                Home
               </Button>
-            ))}
+            </Link>
+            <Link to="/projects" style={{ textDecoration: 'none'}}>
+              <Button
+                onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: 'white', display: 'block', fontSize: 25 , px: 4}}
+              >
+                Projects
+              </Button>
+            </Link>
+            <Link to="/experience" style={{ textDecoration: 'none'}}>
+              <Button
+                onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: 'white', display: 'block', fontSize: 25 , px: 4}}
+              >
+                Experience
+              </Button>
+            </Link>
+            <Link to="/contact" style={{ textDecoration: 'none'}}>
+              <Button
+                onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: 'white', display: 'block', fontSize: 25 , px: 4}}
+              >
+                Contact
+              </Button>
+            </Link>
           </Box>
           <Box sx={{ flexGrow: 0 }}>
               <IconButton sx={{ p: 2}}>

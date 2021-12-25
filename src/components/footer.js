@@ -33,6 +33,7 @@ function Footer() {
                 <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
         </div>
+        
 
     );
 }

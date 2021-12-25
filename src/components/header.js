@@ -10,16 +10,11 @@ import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+import "../css/contact.css";
 
 import Headshot from "../static/LockheedHeadshot.jpg";
 import { Link } from 'react-router-dom';
 
-const pages = [
-  <Link to="/" style={{ textDecoration: 'none'}}>Home </Link>,
-  <Link to="/projects" style={{ textDecoration: 'none' }}> Projects </Link>, 
-  <Link to="/experience" style={{ textDecoration: 'none' }}> Experience </Link>, 
-  <Link to="/contact" style={{ textDecoration: 'none' }}> Contact</Link>
-];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -118,6 +113,7 @@ const ResponsiveAppBar = () => {
             {/* Buttons  */}
             <Link to="/" style={{ textDecoration: 'none'}}>
               <Button
+                className ="navButton"
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block', fontSize: 25 , px: 4}}
               >
@@ -126,6 +122,7 @@ const ResponsiveAppBar = () => {
             </Link>
             <Link to="/projects" style={{ textDecoration: 'none'}}>
               <Button
+                className ="navButton"
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block', fontSize: 25 , px: 4}}
               >
@@ -134,6 +131,7 @@ const ResponsiveAppBar = () => {
             </Link>
             <Link to="/experience" style={{ textDecoration: 'none'}}>
               <Button
+                className ="navButton"
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block', fontSize: 25 , px: 4}}
               >
@@ -142,6 +140,7 @@ const ResponsiveAppBar = () => {
             </Link>
             <Link to="/contact" style={{ textDecoration: 'none'}}>
               <Button
+                className ="navButton"
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block', fontSize: 25 , px: 4}}
               >
@@ -150,9 +149,11 @@ const ResponsiveAppBar = () => {
             </Link>
           </Box>
           <Box sx={{ flexGrow: 0 }}>
+          <Link to="/contact" style={{ textDecoration: 'none'}}>
               <IconButton sx={{ p: 2}}>
                 <Avatar alt="Sam Kuhbander" src={Headshot} sx={{ width: 60, height: 60}}/>
               </IconButton>
+              </Link>
           </Box>
         </Toolbar>
       </Container>

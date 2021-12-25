@@ -1,11 +1,23 @@
 import React from "react";
+import Button from '@mui/material/Button';
 
 function Contact() {
     return (
-        <div>
-            Contact
+
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '80vh' }}>
+            <div style={{ textAlign: 'center' }}>
+                <h1 style={{ fontSize: 70 }}> Contact Me </h1>
+                <h1 className="typewriter"> kuhbandersam@gmail.com</h1>
+                <a href="mailto: kuhbandersam@gmail.com" style={{ textDecoration: 'none' }}>
+                    <div style={{ margin: 50 }}>
+                        <Button variant="contained" size="large">
+                            <i>Send Me An Email</i>
+                        </Button>
+                    </div>
+                </a>
+            </div>
         </div>
-        
+
     );
 }
 

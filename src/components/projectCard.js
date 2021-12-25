@@ -7,13 +7,11 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 const ProjectCard = (props) => {
-     console.log(props);
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ width: 500, m:6}}>
       <CardMedia
         component="img"
         alt= {props.alt}
-        height="240"
         image= {props.img}
       />
       <CardContent>
@@ -25,11 +23,11 @@ const ProjectCard = (props) => {
         </Typography>
       </CardContent>
       <CardActions>
-        
         <a href={props.link}
                 rel="noopener noreferrer"
-                target="_blank">
-                    <Button size="medium">View</Button>
+                target="_blank"
+                style={{ textDecoration: 'none'}}>
+                    <Button variant="outlined" size="large">View</Button>
                 </a>
       </CardActions>
     </Card>

@@ -1,12 +1,11 @@
 import React from "react";
 import ProjectCard from "./components/projectCard";
 import Grid from '@mui/material/Grid';
-import Paper from '@mui/material/Paper';
-import Box from '@mui/material/Box';
 import Reimagine1 from "../src/static/ReimagineCollab1.jpg";
 import MiamiCards1 from "../src/static/MiamiCards1.jpg";
 import OffCampus1 from "../src/static/OffCampus1.jpg";
 import Moviefy1 from "../src/static/Moviefy1.jpg";
+import PersonalWebsite1 from "../src/static/PersonalWebsite1.jpg";
 
 function Project() {
     return (
@@ -38,6 +37,16 @@ function Project() {
                 </Grid>
                 <Grid>
                     <ProjectCard
+                        title="This Website"
+                        description="Check out the code used for this website on GitHub. I coded this webite using React as a personal portfolio."
+                        link="https://github.com/samkuhbander/PersonalWebsite"
+                        alt="Personal Website"
+                        img= {PersonalWebsite1}
+                    >
+                    </ProjectCard>
+                </Grid>
+                <Grid>
+                    <ProjectCard
                         title="Off-Campus"
                         description="Created a web application for my project management class that showed rental properties around Oxford, Ohio.  The site used was coded in HTML and used a PHP backend to connect to a mySQL database.  It also utilized the google maps api to show property locations. "
                         link="https://github.com/samkuhbander/OffCampus-ISA-406-"
@@ -56,6 +65,7 @@ function Project() {
                     >
                     </ProjectCard>
                 </Grid>
+                
             </Grid>
         </div>
     );

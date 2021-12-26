@@ -15,7 +15,17 @@ function Contact() {
                         </Button>
                     </div>
                 </a>
+                <div className='animation'>
+                    <div className='i-mail'>
+                        <div className='mail-anim'></div>
+                    </div>
+                    <div className='line'></div>
+                    <div className='i-success'>
+                        <div className='success-anim'></div>
+                    </div>
             </div>
+            </div>
+            
         </div>
 
     );

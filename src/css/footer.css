@@ -10,20 +10,11 @@
 }
 
   a.social {
-    margin: 0 3rem;
-    padding: 2px;
-    height: 40px;
-    width: 40px;
+    margin: 5vw;
   }
 
   a.social:hover {
-    border: white;
-    border-style: dashed;
-    border-radius: 50%;
-    margin: 0 3rem;
-    padding-top: 2vh;
-    height: 40px;
-    width: 40px;
+    color: white;
   }
 
   a {

@@ -13,7 +13,7 @@ import {
 function Footer() {
     return (
         <div className="Footer">
-            <Container>
+            <Container sx={{ display: "block", marginX: "auto", textAlign: "center" }}>
             <a href="https://www.linkedin.com/in/samuel-kuhbander/"
                 rel="noopener noreferrer"
                 className="linkedin social" target="_blank">

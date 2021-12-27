@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Container from '@mui/material/Container';
 
 import {
     faLinkedin,
@@ -12,6 +13,7 @@ import {
 function Footer() {
     return (
         <div className="Footer">
+            <Container>
             <a href="https://www.linkedin.com/in/samuel-kuhbander/"
                 rel="noopener noreferrer"
                 className="linkedin social" target="_blank">
@@ -32,6 +34,7 @@ function Footer() {
                 className="github social" target="_blank">
                 <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
+            </Container>
         </div>
         
 

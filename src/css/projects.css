@@ -1,8 +1,8 @@
 .mediaBackground {
-    padding: 20px;
+    padding: 1em;
     background-color: #00A8E8;
     
 }
 .MuiCardMedia-img {
-    border-radius: 15px;
+    border-radius: 1em;
 }

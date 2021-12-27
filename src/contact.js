@@ -1,5 +1,6 @@
 import React from "react";
 import Button from '@mui/material/Button';
+import { Container } from "@mui/material";
 
 function Contact() {
     return (
@@ -25,7 +26,6 @@ function Contact() {
                     </div>
             </div>
             </div>
-            
         </div>
 
     );

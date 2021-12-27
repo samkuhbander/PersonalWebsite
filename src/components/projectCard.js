@@ -9,7 +9,7 @@ import "../css/projects.css";
 
 const ProjectCard = (props) => {
   return (
-    <Card sx={{ width: 500, m:5, borderRadius: 4, border: 10, borderColor: "black", transition: "transform 0.15s ease-in-out", "&:hover": { transform: "scale3d(1.10, 1.10, 1)" }}}>
+    <Card sx={{ m:5, borderRadius: 4, border: 10, borderColor: "black", transition: "transform 0.15s ease-in-out", "&:hover": { transform: "scale3d(1.10, 1.10, 1)" }}}>
       <div className="mediaBackground">
       <CardMedia
         component="img"

@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e1ad1376.chunk.css",
+    "main.js": "/static/js/main.186fe668.chunk.js",
+    "main.js.map": "/static/js/main.186fe668.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.17c2f920.js",
+    "runtime-main.js.map": "/static/js/runtime-main.17c2f920.js.map",
+    "static/js/2.ec7e4fa0.chunk.js": "/static/js/2.ec7e4fa0.chunk.js",
+    "static/js/2.ec7e4fa0.chunk.js.map": "/static/js/2.ec7e4fa0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e1ad1376.chunk.css.map": "/static/css/main.e1ad1376.chunk.css.map",
+    "static/js/2.ec7e4fa0.chunk.js.LICENSE.txt": "/static/js/2.ec7e4fa0.chunk.js.LICENSE.txt",
+    "static/media/LockheedHeadshot.a1a72983.jpg": "/static/media/LockheedHeadshot.a1a72983.jpg",
+    "static/media/MiamiCards1.fa5169fd.jpg": "/static/media/MiamiCards1.fa5169fd.jpg",
+    "static/media/Moviefy1.e5a49d29.jpg": "/static/media/Moviefy1.e5a49d29.jpg",
+    "static/media/OffCampus1.d0a6e202.jpg": "/static/media/OffCampus1.d0a6e202.jpg",
+    "static/media/PersonalWebsite1.6bf23d9c.jpg": "/static/media/PersonalWebsite1.6bf23d9c.jpg",
+    "static/media/ReimagineCollab1.e3e25c89.jpg": "/static/media/ReimagineCollab1.e3e25c89.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17c2f920.js",
+    "static/js/2.ec7e4fa0.chunk.js",
+    "static/css/main.e1ad1376.chunk.css",
+    "static/js/main.186fe668.chunk.js"
+  ]
+}

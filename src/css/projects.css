@@ -3,6 +3,12 @@
     background-color: #00A8E8;
     
 }
+
 .MuiCardMedia-img {
     border-radius: 1em;
+}
+
+.projectCard:hover {
+    transition: ease-in-out;
+    transform: scale3d(1.05, 1.05, 1);
 }

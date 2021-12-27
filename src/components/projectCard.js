@@ -9,7 +9,7 @@ import "../css/projects.css";
 
 const ProjectCard = (props) => {
   return (
-    <Card sx={{ m:5, borderRadius: 4, border: 10, borderColor: "black", transition: "transform 0.15s ease-in-out", "&:hover": { transform: "scale3d(1.05, 1.05, 1)" }}}>
+    <Card className="projectCard" sx={{ m:5, borderRadius: 4, border: 10, borderColor: "black", transition: "transform 0.15s ease-in-out"}}>
       <div className="mediaBackground">
       <CardMedia
         component="img"
@@ -30,7 +30,7 @@ const ProjectCard = (props) => {
                 rel="noopener noreferrer"
                 target="_blank"
                 style={{ textDecoration: 'none'}}>
-                    <Button sx={{ml: 2}} variant="outlined" size="large">View</Button>
+                    <Button sx={{ml: 2, bgcolor: "#00A8E8", ':hover': {color: "#00A8E8", bgcolor: 'white'}}} variant="contained" size="large">View</Button>
                 </a>
       </CardActions>
     </Card>

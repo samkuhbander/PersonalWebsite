@@ -101,7 +101,7 @@ const ResponsiveAppBar = () => {
             </Menu>
           </Box>
           <Typography
-            variant="h4"
+            variant="h5"
             noWrap
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}

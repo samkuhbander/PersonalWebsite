@@ -15,7 +15,7 @@ function Experience() {
                 </div>
             </Container>
             <Grid container direction="row" justifyContent="center" alignItems="center">
-                <Grid item xs={10} md={5} xl={4}>
+                <Grid item xs={12} md={5} xl={4}>
                     <ExperienceCard
                         title="Undergraduate Researcher at Miami University"
                         description="Studying blockchain technologies and the applications of decentralized networks. 
@@ -26,7 +26,7 @@ function Experience() {
                     >
                     </ExperienceCard>
                 </Grid>
-                <Grid item xs={10} md={5} xl={4}>
+                <Grid item xs={12} md={5} xl={4}>
                     <ExperienceCard
                         title="Premier College Intern Program at AFLCMC"
                         description="Position as student trainee at Wright Patterson AFB, Ohio at the Air Force Life Cycle Management Center. 
@@ -39,7 +39,7 @@ function Experience() {
                 </Grid>
             </Grid>
             <Grid container direction="row" justifyContent="center" alignItems="center">
-                <Grid item xs={10} md={5} xl={4}>
+                <Grid item xs={12} md={5} xl={4}>
                     <ExperienceCard
                         title="Lockheed Martin Leadership Institute"
                         description="Selected for a merit-based, three-year leadership development program. Designed to cultivate professional leaders who think strategically, work collaboratively,

@@ -50,7 +50,7 @@ function Project() {
                 <Grid item xs={12} md={6} xl={4}>
                     <ProjectCard
                         title="Off-Campus"
-                        description="Created a web application for my project management class that showed rental properties around Oxford, Ohio.  The site used was coded in HTML and used a PHP backend to connect to a mySQL database.  It also utilized the google maps api to show property locations. "
+                        description="Created a web application for my project management class that showed rental properties around Oxford, Ohio.  The site was coded in HTML and used a PHP backend to connect to a mySQL database.  It also utilized the google maps api to show property locations. "
                         link="https://github.com/samkuhbander/OffCampus-ISA-406-"
                         alt="Off-Campus"
                         img={OffCampus1}

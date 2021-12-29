@@ -2,6 +2,7 @@ import React from "react";
 import "../css/footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Container from '@mui/material/Container';
+import "../css/contact.css";
 
 import {
     faLinkedin,

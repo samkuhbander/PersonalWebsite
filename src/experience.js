@@ -1,4 +1,4 @@
-import { Container } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 import React from "react";
 import ExperienceCard from "./components/experienceCard";
 import Grid from '@mui/material/Grid';
@@ -11,7 +11,7 @@ function Experience() {
         <div>
             <Container sx={{ display: "block", marginX: "auto", textAlign: "center" }}>
                 <div style={{ textAlign: 'center' }}>
-                    <h1 style={{ fontSize: "5vw", marginTop: "5%" }}>Experience</h1>
+                    <Typography variant="h1" sx={{m:4}}>Experience</Typography>
                 </div>
             </Container>
             <Grid container direction="row" justifyContent="center" alignItems="center">

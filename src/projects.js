@@ -7,13 +7,14 @@ import MiamiCards1 from "../src/static/MiamiCards1.jpg";
 import OffCampus1 from "../src/static/OffCampus1.jpg";
 import Moviefy1 from "../src/static/Moviefy1.jpg";
 import PersonalWebsite1 from "../src/static/PersonalWebsite1.jpg";
+import { Typography } from "@mui/material";
 
 function Project() {
     return (
         <div>
             <Container sx={{ display: "block", marginX: "auto"}}>
                 <div style={{ textAlign: 'center' }}>
-                    <h1 style={{ fontSize: "5vw", marginTop: "5%"}}>My Projects</h1>
+                    <Typography variant="h1" sx={{m:4}}>My Projects</Typography>
                 </div>
             </Container>
             <Grid container>

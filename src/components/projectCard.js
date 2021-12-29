@@ -9,13 +9,13 @@ import "../css/projects.css";
 
 const ProjectCard = (props) => {
   return (
-    <Card className="projectCard" sx={{margin:"4vw", borderRadius: 4, border: 10, borderColor: "black", transition: "transform 0.15s ease-in-out"}}>
+    <Card className="projectCard" sx={{ margin: "4vw", borderRadius: 4, border: 10, borderColor: "black", transition: "transform 0.15s ease-in-out" }}>
       <div className="mediaBackground">
-      <CardMedia
-        component="img"
-        alt= {props.alt}
-        image= {props.img}
-      />
+          <CardMedia
+          component="img"
+          alt={props.alt}
+          image={props.img}
+        />
       </div>
       <CardContent>
         <Typography gutterBottom variant="h3" component="div">
@@ -27,14 +27,14 @@ const ProjectCard = (props) => {
       </CardContent>
       <CardActions>
         <a href={props.link}
-                rel="noopener noreferrer"
-                target="_blank"
-                style={{ textDecoration: 'none'}}>
-                    <Button sx={{ml: 2, bgcolor: "#00A8E8", ':hover': {color: "#00A8E8", bgcolor: 'white'}}} variant="contained" size="large">View</Button>
-                </a>
+          rel="noopener noreferrer"
+          target="_blank"
+          style={{ textDecoration: 'none' }}>
+          <Button sx={{ ml: 2, bgcolor: "#00A8E8", ':hover': { color: "#00A8E8", bgcolor: 'white' } }} variant="contained" size="large">View</Button>
+        </a>
       </CardActions>
     </Card>
   );
-} 
+}
 
 export default ProjectCard;

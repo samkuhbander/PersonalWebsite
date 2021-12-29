@@ -2,15 +2,14 @@ import React from "react";
 import Headshot from "./static/LockheedHeadshot.jpg";
 import Avatar from '@mui/material/Avatar';
 import Container from '@mui/material/Grid';
+import { Typography } from "@mui/material";
 
 function Home() {
     return (
         <div>
             <Container maxWidth="md" sx={{ display: "block", marginX: "auto", textAlign: "center" }}>
-            <h1 style={{fontSize: "5vw", marginTop: "5%"}}>
-                Sam Kuhbander
-            </h1>
-            <h1 style={{fontSize: "4vw"}}> A software developer</h1>
+                <Typography variant="h2" sx={{m:4}}> Sam Kuhbander </Typography>
+                <Typography variant="h3"> A software developer </Typography>
             <Avatar alt="Sam Kuhbander" src={Headshot} sx={{ width: "50%", height: "100%", margin: "10%", display: "block", marginX: "auto"}}/>
             </Container>
         </div>

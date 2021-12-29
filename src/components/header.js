@@ -10,7 +10,7 @@ import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import "../css/contact.css";
+
 
 import Headshot from "../static/LockheedHeadshot.jpg";
 import { Link } from 'react-router-dom';
@@ -28,20 +28,10 @@ const ResponsiveAppBar = () => {
     setAnchorElNav(null);
   };
 
-
-
   return (
     <AppBar position="static" style={{ background: "#002159" }}>
       <Container>
         <Toolbar disableGutters>
-          <Typography
-            variant="h4"
-            noWrap
-            component="div"
-            sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
-          >
-          </Typography>
-
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -101,7 +91,7 @@ const ResponsiveAppBar = () => {
             </Menu>
           </Box>
           <Typography
-            variant="h5"
+            variant="h4"
             noWrap
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}

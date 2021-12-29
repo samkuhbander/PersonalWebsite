@@ -31,7 +31,7 @@ function Experience() {
                         title="Premier College Intern Program at AFLCMC"
                         description="Position as student trainee at Wright Patterson AFB, Ohio at the Air Force Life Cycle Management Center. 
                                     Provides on the job experience and training to futher technical development"
-                        date="May 2021 - Aug 2021"
+                        date="May 2022 - Aug 2022"
                         img={AFLCMC}
                         alt="Air Force Life Cycle Management Center"
                     >

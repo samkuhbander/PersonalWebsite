@@ -11,7 +11,7 @@ import PersonalWebsite1 from "../src/static/PersonalWebsite1.jpg";
 function Project() {
     return (
         <div>
-            <Container sx={{ display: "block", marginX: "auto" }}>
+            <Container sx={{ display: "block", marginX: "auto"}}>
                 <div style={{ textAlign: 'center' }}>
                     <h1 style={{ fontSize: "5vw", marginTop: "5%"}}>My Projects</h1>
                 </div>

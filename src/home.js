@@ -7,7 +7,7 @@ function Home() {
     return (
         <div>
             <Container maxWidth="md" sx={{ display: "block", marginX: "auto", textAlign: "center" }}>
-            <h1 style={{fontSize: "6vw"}}>
+            <h1 style={{fontSize: "5vw", marginTop: "5%"}}>
                 Sam Kuhbander
             </h1>
             <h1 style={{fontSize: "4vw"}}> A software developer</h1>

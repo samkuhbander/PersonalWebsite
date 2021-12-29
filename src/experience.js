@@ -30,7 +30,7 @@ function Experience() {
                     <ExperienceCard
                         title="Premier College Intern Program at AFLCMC"
                         description="Position as student trainee at Wright Patterson AFB, Ohio at the Air Force Life Cycle Management Center. 
-                                    Provides on the job experience and training to futher technical development"
+                        Provides on-the job experience and training for further technical development."
                         date="May 2022 - Aug 2022"
                         img={AFLCMC}
                         alt="Air Force Life Cycle Management Center"

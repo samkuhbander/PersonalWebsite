@@ -12,7 +12,7 @@ function Contact() {
                 <a href="mailto: kuhbandersam@gmail.com" style={{ textDecoration: 'none' }}>
                     <div style={{ margin: 50 }}>
                         <Button variant="contained" size="large" sx={{bgcolor: "#00A8E8", ':hover': {bgcolor: 'white', color: "#00A8E8"}, }}>
-                            <i>Send Me An Email</i>
+                            Send Me An Email
                         </Button>
                     </div>
                 </a>

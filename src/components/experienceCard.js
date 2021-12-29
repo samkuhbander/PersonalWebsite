@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 
 const ExperienceCard = (props) => {
   return (
-    <Card sx={{margin:"2vh", padding: "2vh", borderRadius: 4, border: 4, borderColor: "gray", textAlign: "center"}}>
+    <Card sx={{margin:"2vh", padding: "2vh", borderRadius: 4, border: 5, borderColor: "gray", textAlign: "center"}}>
       <CardMedia
         component="img"
         alt= {props.alt}

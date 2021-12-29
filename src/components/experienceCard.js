@@ -12,7 +12,7 @@ const ExperienceCard = (props) => {
         component="img"
         alt= {props.alt}
         image= {props.img}
-        style= {{width:"15vw", margin:"auto", padding:"5%"}}
+        style= {{width:"20vw", margin:"auto", padding:"5%"}}
       />
       <CardContent>
         <Typography gutterBottom variant="h4" style={{fontSize: "4vh"}}component="div">

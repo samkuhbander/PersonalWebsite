@@ -7,6 +7,7 @@ import MiamiCards1 from "../src/static/MiamiCards1.jpg";
 import OffCampus1 from "../src/static/OffCampus1.jpg";
 import Moviefy1 from "../src/static/Moviefy1.jpg";
 import PersonalWebsite1 from "../src/static/PersonalWebsite1.jpg";
+import WordleClone1 from "../src/static/WordleClone1.jpg";
 import { Typography } from "@mui/material";
 
 function Project() {
@@ -25,6 +26,16 @@ function Project() {
                         link="https://github.com/wsl-miami/miamicards"
                         alt="Miami Cards"
                         img={MiamiCards1}
+                    >
+                    </ProjectCard>
+                </Grid>
+                <Grid item xs={12} md={6} xl={4}>
+                    <ProjectCard
+                        title="Wordle Clone"
+                        description="Created a clone of the popular word game Wordle that allows for multiple replays in a given day."
+                        link="https://github.com/samkuhbander/wordle-clone"
+                        alt="Wordle Clone"
+                        img={WordleClone1}
                     >
                     </ProjectCard>
                 </Grid>

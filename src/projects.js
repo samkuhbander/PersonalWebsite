@@ -8,6 +8,7 @@ import OffCampus1 from "../src/static/OffCampus1.jpg";
 import Moviefy1 from "../src/static/Moviefy1.jpg";
 import PersonalWebsite1 from "../src/static/PersonalWebsite1.jpg";
 import WordleClone1 from "../src/static/WordleClone1.jpg";
+import Spotify from "../src/static/Spotify.jpg";
 import { Typography } from "@mui/material";
 
 function Project() {
@@ -19,6 +20,16 @@ function Project() {
                 </div>
             </Container>
             <Grid container>
+                <Grid item xs={12} md={6} xl={4}>
+                    <ProjectCard
+                        title="Spotify Visualizer"
+                        description="React application that allows users to visualize data from the Spotify API. Shows the users their top artists and top tracks from the last month and their popularity."
+                        link="https://superlative-phoenix-67b1a8.netlify.app/"
+                        alt="Spotify Data Visualizer"
+                        img={Spotify}
+                    >
+                    </ProjectCard>
+                </Grid>
                 <Grid item xs={12} md={6} xl={4}>
                     <ProjectCard
                         title="Miami Cards"
